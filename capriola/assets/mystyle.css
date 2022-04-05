@@ -1,0 +1,100 @@
+* {box-sizing: border-box; }
+  .column {
+    float: left;
+    width: 40%;
+    padding:0px;
+    align-content:left;
+    vertical-align: text-top;}
+  
+
+    
+h1{
+    font-family: Capriola, sans-serif;
+    font-size: 100px;
+    color:black;
+    letter-spacing: 6px;
+    line-height: 0.2;
+    text-decoration: overline underline;
+    vertical-align: top;}
+    
+.p1{
+    font-family: Capriola, sans-serif;
+    font-size: 58px;
+    color:black;
+    text-shadow: 2px 2px tomato;
+}
+
+.p2{
+    font-family: Capriola, sans-serif;
+    font-size: 58px;
+    color:black;
+    align-content:top
+
+   
+}
+
+.p3{
+    font-family: Capriola, sans-serif;
+    font-size: 58px;
+    color:black;
+    font-style: italic;
+    text-shadow: 2px 2px tomato;
+}
+
+.p4{
+    font-family: Capriola, sans-serif;
+    font-size: 58px;
+    color:black;
+    font-style: italic;
+}
+
+.p5{
+    font-family: Capriola, sans-serif;
+    font-size: 58px;
+    color:black;
+    font-style: italic;
+    text-shadow: 3px 3px white;
+    text-shadow: 2px 2px tomato;
+}
+
+
+.p6{
+    font-family: Capriola, sans-serif;
+    font-size: 40px;
+    color:black;
+}
+ .column2 {
+    background-color:tomato;
+    float: right;
+    column-fill: balance;
+    margin-top: 0px;
+    position: top;
+    position: right;
+    width: 60%;
+    padding-left: 20px;
+    height: 100%;
+    }
+
+.p7{
+    font-family: Capriola, sans-serif;
+    font-size: 80px; 
+    padding: top -30px;
+    line-height: 1.5;
+    color: black;}
+
+.p8{
+        font-family: Capriola, sans-serif;
+        font-size: 80px; 
+        padding: top -30px;
+        line-height: 1.5;
+        color: black;}
+
+img {width: 100%;  
+    height:50%;
+    object-fit: fill;
+    display: block;
+    position: bottom;}
+
+.glyphimg{
+    width: 100%;
+    position: bottom}
