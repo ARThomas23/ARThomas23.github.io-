@@ -1,0 +1,116 @@
+
+body{
+    background-image: url(paper4.jpg);
+    background-repeat: none;
+    background-position-y: 0px;
+    background-size: 2000px;
+    
+    }
+:root {
+    padding: 10px;
+}
+
+.container {
+
+    display: grid;
+    font-family: ltc-bodoni-175, serif;
+    height: 850px;
+    grid-template-columns: auto(4, 1fr);
+    grid-template-rows: auto(4, 1fr) ;
+    grid-gap: 1.5rem;
+    grid-template-areas: 
+    "content1 content2 content2 content3" 
+    "content1 content4 content4 content4"
+    "content1 content5 content5 content5"
+   
+    ;
+}
+
+#content1{
+    background-color: rgba(255, 255, 255, 0.722);
+    padding-top: 10px;
+    text-align: center ;
+    text-align: justify;
+    grid-area: content1;
+    width: 200px;
+    height: 1000px;
+    contain: strict;
+    line-height: .4;
+    font-size: 70px;
+    text-shadow: 6px 3px #bbb;
+    writing-mode: vertical-rl; 
+
+}
+
+
+#content2 {
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.858);
+    grid-area: content2;
+    width: stretch;
+    text-align: justify;
+    padding: 10px;
+}
+
+h2{
+    text-transform: capitalize;
+    word-spacing: 0px;
+    font-size: 35px;
+    line-height: .1;
+    text-indent: 100px;
+}
+
+h3{
+    word-spacing: 0px;
+    font-size: 40px;
+    line-height: .1;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+    text-indent: 100px;
+}
+
+
+#content3 {
+    background-color: rgba(255, 255, 255, 0.892);
+    grid-area: content3;
+    text-align: justify;
+    padding: 30px;
+}
+
+#content4 {
+    background-color: rgba(255, 255, 255, 0.892);
+    grid-area: content4;
+    height: 325px;
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+    word-spacing: 14px;
+    line-height: 1.5;
+    padding-top: 10px;
+    text-shadow: 7px 6px #bbb ;
+}
+
+.p1{
+    text-indent: 100px;
+    padding: 20px;
+
+}
+
+#content5 {
+    background-color: rgba(255, 255, 255, 0.929);
+    grid-area: content5;
+    width: 1000px;
+    height: 230px;
+    padding: 10px;
+    font-size: 70px;
+    contain: strict;
+}
+
+#content6 {
+    background-color: rgba(255, 255, 255, 0.892);
+    grid-area: content6;
+    height: 100px;
+    padding: 10px;
+}
+
